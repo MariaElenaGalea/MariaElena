@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "geomanist";
+    src: url("geomanist-medium-webfont.ttf");
+}
+
+h1 {
+        font-family: 'geomanist', sans-serif;
+        font-style: medium;
+        font-size: 1.875em;
+        letter-spacing: 0.2em;
+        color: #12213A;
+    }
+
+
+
+h1:hover{
+    color: #2AD2B0;
+   } 
+
+@font-face {
+    font-family: "geomanist";
+    src: url("geomanist-book-webfont.ttf");
+}
+
+h2 {
+    font-family: 'geomanist', sans-serif;
+    font-size: 1.5em;
+}
