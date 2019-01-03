@@ -13,29 +13,28 @@
     src: url("https://fonts.googleapis.com/css?family=Space+Mono");
 }
 
-h1{
-    font-family: 'geomanist-medium', sans-serif;  
+h1 {
+    font-family: 'geomanist-medium', sans-serif;
     font-size: 1.875rem;
     color: #12213A;
     letter-spacing: 0.2em;
+    padding: 5px;  
     }
-    
 
 h1:hover{
     color: #2AD2B0;
    } 
-  
-h2 {
-    font-display: none;
-    font-family: 'geomanist-book', sans-serif;
-    font-size: 1.5rem;
-    color: #12213A;
-}
 
 h2:hover{
     color: #2AD2B0;
    } 
   
+h2 {
+    font-family: 'geomanist-book', sans-serif;
+    font-size: 1.5rem;
+    color: #12213A;
+    padding: 5px;
+}
 
 h3 {
     font-family: 'geomanist-book', sans-serif;
@@ -64,5 +63,3 @@ a{
     font-size: 18px;
     color: #12213A;
 }
-
-
