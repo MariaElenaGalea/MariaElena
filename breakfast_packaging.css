@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "geomanist-medium";
+    src: url("geomanist-medium-webfont.ttf");
+}
+
+@font-face {
+    font-family: "geomanist-book";
+    src: url("geomanist-book-webfont.ttf");
+}
+
+@font-face {
+    font-family: "space-mono";
+    src: url("https://fonts.googleapis.com/css?family=Space+Mono");
+}
+
+h1,h2,h3,p,div,i,a{
+    color: #12213A
+}
+
+h1:hover, h2:hover {
+    color: #2AD2B0;
+   } 
+
+h1 {
+    font-family: 'geomanist-medium', sans-serif;
+    font-size: 1.875rem;
+    letter-spacing: 0.2em;
+    padding: 5px;  
+    }
+
+  
+h2 {
+    font-family: 'geomanist-book', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'geomanist-book', sans-serif;
+    font-size: 65px;
+}
+
+p{
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+}
+
+#bold{
+    font-weight: bold;
+}
+ul li{
+    list-style-type: none;
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+
+}
+div {
+    font-family: 'geomanist-book', Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#paragraph, #bold{
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+i{
+    font-size: 	3rem;
+}
+
+a{
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+}
