@@ -63,3 +63,44 @@ a{
     font-size: 18px;
     color: #12213A;
 }
+
+.header{
+    background: url("background4.png") no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+
+.about{
+    margin-bottom: 20em;
+    margin-top: 5em;
+}
+
+.background2{
+    background: url("background_swatchbook.png") no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position-y: 43em;
+}
+
+.work{
+    margin-bottom: 10em;
+}
+
+.space{
+    margin-bottom: 25em;
+}
+
+.footer{
+    background: url("background3.png") no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position-y: 20em;
+}
+html{
+    background: url("background3.png") no-repeat;
+    background-position: center bottom;
+}
+
+.fab{
+    font-size: 2em;
+}

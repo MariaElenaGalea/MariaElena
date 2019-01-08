@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "geomanist-medium";
+    src: url("geomanist-medium-webfont.ttf");}
+
+@font-face {
+    font-family: "geomanist-book";
+    src: url("geomanist-book-webfont.ttf");}
+
+@font-face {
+    font-family: "space-mono";
+    src: url("https://fonts.googleapis.com/css?family=Space+Mono");}
+
+h1{
+    font-family: 'geomanist-medium', sans-serif;  
+    font-size: 1.875rem;
+    color: #12213A;
+    letter-spacing: 0.2em;}
+    
+  
+h2 {
+    font-display: none;
+    font-family: 'geomanist-book', sans-serif;
+    font-size: 1.5rem;
+    color: #12213A;} 
+
+
+h3 {
+    font-family: 'geomanist-book', sans-serif;
+    font-size: 65px;
+    color: #12213A;
+}
+
+p {
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+    color: #12213A;}
+
+.about{
+    margin-top: 10em;
+    margin-bottom: 10em;
+    }
+
+    .background{
+        background: url("background1.png") no-repeat;
+        width: 100%;
+        background-size: contain;
+    }
+
+    input.custom{
+        font-family: 'space-mono', monospace;
+        color: #12213A;
+    
+      }
+
+      ::placeholder{
+          color:#12213A;
+      }
+
+a{
+    font-family: 'space-mono', monospace;
+    font-size: 20px;
+    color: #2ad2b0;
+}
+
+a:hover{
+   color: #12213A
+   
+}
+
+.button{
+    margin-top: 5em;
+}
+
+input.contact-form-button{
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+    color: #EDF0F7;
+    background-color:#12213A;
+    
+  }
+
+  input.contact-form-button:hover{
+    
+    background-color:#2AD2B0;
+    
+
+
+
+      
+    
+
+
+

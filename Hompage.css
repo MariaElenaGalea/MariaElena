@@ -45,15 +45,14 @@ div {
     font-size: 24px;
     color: #12213A;}
 
-a{
+a {
     font-family: 'space-mono', monospace;
     font-size: 18px;
     color: #12213A;}
+    
 
 
-
-
-.maria-elena{
+.header{
     background: url("background1.png") no-repeat;
     width: 100%;
     background-size: contain;
@@ -96,3 +95,48 @@ html{
 .fab{
     font-size: 2em;
 }
+
+
+
+  .overlay:hover{
+      background-color: #2AD2B0;
+      left: 0px;
+      top: 0px;
+      transition: all 300ms ease 0s;
+  }
+
+  input.custom{
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+    color: #12213A;
+  }
+
+  textarea{
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+    color: #12213A;
+    border: none;
+  }
+
+  ::placeholder{
+      color: #2AD2B0;
+  }
+
+  input{
+      border: none;
+  }
+
+  input.contact-form-button{
+    font-family: 'space-mono', monospace;
+    font-size: 18px;
+    color: #EDF0F7;
+    background-color:#12213A;
+    
+  }
+
+  input.contact-form-button:hover{
+    
+    background-color:#2AD2B0;
+    
+  }
+ 
