@@ -29,22 +29,22 @@ h2:hover{
 
 h3 {
     font-family: 'geomanist-book', sans-serif;
-    font-size: 65px;
+    font-size: 4rem;
     color: #12213A;
 }
 
 p {
     font-family: 'space-mono', monospace;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #12213A;}
 div {
     font-family: 'geomanist-book', Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #12213A;}
 
 a {
     font-family: 'space-mono', monospace;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #12213A;}
     
 .photolog:hover{
@@ -64,78 +64,29 @@ a {
     background-position-y: 10em;
 }
 .about{
-    margin-bottom: 25em;
-    margin-top: 5em;
-}
-
-.work{
-    margin-bottom: 5em;
-}
-
-.work2{
-    margin-bottom: 10em;
+    margin-bottom: 30rem;
+    margin-top: 8rem;
 }
 
 .space{
-    margin-bottom: 25em;
+    margin-bottom: 2rem;
+}
+.space2{
+    margin-bottom: 30rem;
 }
 
 .footer{
     background: url("background3.png") no-repeat;
     width: 100%;
     background-size: contain;
-    background-position-y: 20em;
+    background-position-y: 25rem;
 }
+
 html{
     background: url("background3.png") no-repeat;
     background-position: center bottom;
 }
 
 .fab{
-    font-size: 2em;
+    font-size: 2rem;
 }
-
-
-
-  .overlay:hover{
-      background-color: #2AD2B0;
-      left: 0px;
-      top: 0px;
-      transition: all 300ms ease 0s;
-  }
-
-  input.custom{
-    font-family: 'space-mono', monospace;
-    font-size: 18px;
-    color: #12213A;
-  }
-
-  textarea{
-    font-family: 'space-mono', monospace;
-    font-size: 18px;
-    color: #12213A;
-    border: none;
-  }
-
-  ::placeholder{
-      color: #2AD2B0;
-  }
-
-  input{
-      border: none;
-  }
-
-  input.contact-form-button{
-    font-family: 'space-mono', monospace;
-    font-size: 18px;
-    color: #EDF0F7;
-    background-color:#12213A;
-    
-  }
-
-  input.contact-form-button:hover{
-    
-    background-color:#2AD2B0;
-    
-  }
- 

@@ -8,11 +8,6 @@
     src: url("geomanist-book-webfont.ttf");
 }
 
-@font-face {
-    font-family: "space-mono";
-    src: url("https://fonts.googleapis.com/css?family=Space+Mono");
-}
-
 h1 {
     font-family: 'geomanist-medium', sans-serif;
     font-size: 1.875rem;
@@ -100,4 +95,8 @@ html{
 
 .fab{
     font-size: 2em;
+}
+
+.photolog:hover{
+    color: #2AD2B0;
 }

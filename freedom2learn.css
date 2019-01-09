@@ -8,17 +8,12 @@
     src: url("geomanist-book-webfont.ttf");
 }
 
-@font-face {
-    font-family: "space-mono";
-    src: url("https://fonts.googleapis.com/css?family=Space+Mono");
-}
-
 h1 {
     font-family: 'geomanist-medium', sans-serif;
     font-size: 1.875rem;
     color: #12213A;
     letter-spacing: 0.2em;
-    padding: 5px;  
+    padding: 0.3125rem;  
     }
 
 h1:hover{
@@ -33,12 +28,12 @@ h2 {
     font-family: 'geomanist-book', sans-serif;
     font-size: 1.5rem;
     color: #12213A;
-    padding: 5px;
+    padding: 0.3125rem;
 }
 
 h3 {
     font-family: 'geomanist-book', sans-serif;
-    font-size: 65px;
+    font-size: 4rem;
     color: #12213A;
 }
 
@@ -56,12 +51,12 @@ h5 {
 
 p {
     font-family: 'space-mono', monospace;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #12213A;
 }
 div {
     font-family: 'geomanist-book', Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #12213A;
 }
 
@@ -72,7 +67,7 @@ i{
 
 a{
     font-family: 'space-mono', monospace;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #12213A;
 }
 
@@ -125,5 +120,9 @@ html{
 }
 
 .link:hover{
+    color: #2AD2B0;
+}
+
+.photolog:hover{
     color: #2AD2B0;
 }
