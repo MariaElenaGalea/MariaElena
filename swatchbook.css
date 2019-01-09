@@ -33,18 +33,18 @@ h2 {
 
 h3 {
     font-family: 'geomanist-book', sans-serif;
-    font-size: 65px;
+    font-size: 4rem;
     color: #12213A;
 }
 
 p {
     font-family: 'space-mono', monospace;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #12213A;
 }
 div {
     font-family: 'geomanist-book', Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #12213A;
 }
 
@@ -55,7 +55,7 @@ i{
 
 a{
     font-family: 'space-mono', monospace;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #12213A;
 }
 
