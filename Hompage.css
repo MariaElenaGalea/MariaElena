@@ -6,7 +6,9 @@
     font-family: "geomanist-book";
     src: url("geomanist-book-webfont.ttf");}
 
-
+body{
+    background: none;
+}
 h1{
     font-family: 'geomanist-medium', sans-serif;  
     font-size: 1.875rem;
@@ -47,6 +49,10 @@ a {
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     color: #12213A;}
+
+a:hover{
+    color: #2AD2B0;
+}
     
 .photolog:hover{
     color: #2AD2B0;
@@ -54,11 +60,14 @@ a {
 
 .about{
     margin-bottom: 25em;
+}
+
+.makerofthings{
     margin-top: 5em;
 }
 
 .work{
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 }
 
 .work2{
@@ -66,7 +75,7 @@ a {
 }
 
 .space{
-    margin-bottom: 25em;
+    margin-bottom: 20em;
 }
 
 /* background */
@@ -76,31 +85,70 @@ a {
     background-size: contain;
 }
 
-.background2{
+/*.background2{
     background: url("background2.png") no-repeat;
     width: 100%;
     background-size: contain;
     background-position-y: 10em;
-}
+}*/
 
-.footer{
-    background: url("background3.png") no-repeat;
-    width: 100%;
-    background-size: contain;
-    background-position-y: 20em;
-}
 html{
     background: url("background3.png") no-repeat;
+    width: 100%;
+    background-attachment: fixed;
     background-position: center bottom;
 }
+/* social media icons */
 
-/* footer */
 .fab{
-    font-size: 2em;
+    font-size: 200%;
+    color: #12213A;
+}
+
+.fab:hover{
+    color: #2AD2B0;
+}
+
+/* box section */
+.project-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2AD2B0AA;
+}
+
+.project-container{
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.project-container:hover .project-overlay {
+    opacity: 1;
+}
+.project-container .text {
+    color: white;
+    font-family: 'space-mono', monospace;
+    font-size: 1.125rem;
+    position: absolute;
+    top: 90%;
+    bottom: 0%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
 }
 
 .overlay:hover{
       background-color: #2AD2B0;
+      background-color: transparent;
       left: 0px;
       top: 0px;
       transition: all 300ms ease 0s;
@@ -138,4 +186,7 @@ input.contact-form-button:hover{
      background-color:#2AD2B0; 
   }
       
- 
+ .form input, .form textarea{
+    display:block;
+    width: 100%;
+ }

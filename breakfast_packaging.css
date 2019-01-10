@@ -60,7 +60,7 @@ div {
 }
 
 i{
-    font-size: 	3rem;
+    font-size: 	5rem;
 }
 
 a{
@@ -68,9 +68,14 @@ a{
     font-size: 1.125rem;
 }
 
+
+
 .about{
-    margin-bottom: 30rem;
-    margin-top: 5em;
+    margin-top: 3em;
+}
+
+.about2{
+    margin-bottom: 20em;
 }
 
 .header{
@@ -79,7 +84,7 @@ a{
     background-size: contain;
 }
 
-.background2{
+/*.background2{
     background: url("background_breakfast.png") no-repeat;
     width: 100%;
     background-size: contain;
@@ -92,7 +97,7 @@ a{
     background-size: contain;
     background-position-y: 5em;
    
-}
+}*/
 
 
 .work{
@@ -104,17 +109,15 @@ a{
     margin-bottom: 25em;
 }
 
-.footer{
-    background: url("background3.png") no-repeat;
-    width: 100%;
-    background-size: contain;
-    background-position-y: 20em;
+body{
+    background: none;
 }
 html{
     background: url("background3.png") no-repeat;
+    width: 100%;
+    background-attachment: fixed;
     background-position: center bottom;
 }
-
 .fab{
     font-size: 2em;
 }
@@ -122,3 +125,40 @@ html{
 .photolog:hover{
     color: #2AD2B0;
 }
+
+input.custom{
+    font-family: 'space-mono', monospace;
+    font-size: 1.125rem;
+    color: #12213A;
+  }
+
+textarea{
+    font-family: 'space-mono', monospace;
+    font-size: 1.125rem;
+    color: #12213A;
+    border: none;
+  }
+
+::placeholder{
+    color: #2AD2B0;
+  }
+
+input{
+    border: none;
+  }
+
+input.contact-form-button{
+    font-family: 'space-mono', monospace;
+    font-size: 1.125rem;
+    color: #EDF0F7;
+    background-color:#12213A;
+  }
+
+input.contact-form-button:hover{
+     background-color:#2AD2B0; 
+  }
+      
+ .form input, .form textarea{
+    display:block;
+    width: 100%;
+ }

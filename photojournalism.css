@@ -8,7 +8,9 @@
     src: url("geomanist-book-webfont.ttf");
 }
 
-
+body{
+    background: none;
+}
 h1 {
     font-family: 'geomanist-medium', sans-serif;
     font-size: 1.875rem;
@@ -67,16 +69,19 @@ a{
 }
 
 .about{
-    margin-bottom: 25rem;
     margin-top: 5em;
 }
 
-.background2{
+.about2{
+    margin-bottom: 25rem;
+}
+
+/*.background2{
     background: url("background_swatchbook.png") no-repeat;
     width: 100%;
     background-size: contain;
     background-position-y: 43em;
-}
+}*/
 
 .work{
     margin-bottom: 10em;
@@ -88,17 +93,6 @@ a{
 
 .space2{
     margin-top: 10em;
-}
-
-.footer{
-    background: url("background3.png") no-repeat;
-    width: 100%;
-    background-size: contain;
-    background-position-y: 20em;
-}
-html{
-    background: url("background3.png") no-repeat;
-    background-position: center bottom;
 }
 
 .fab{
@@ -115,4 +109,50 @@ html{
 
 .photolog:hover{
     color: #2AD2B0;
+}
+
+/*Form*/  
+input.custom{
+    font-family: 'space-mono', monospace;
+    font-size: 1.125rem;
+    color: #12213A;
+  }
+
+textarea{
+    font-family: 'space-mono', monospace;
+    font-size: 1.125rem;
+    color: #12213A;
+    border: none;
+  }
+
+::placeholder{
+    color: #2AD2B0;
+  }
+
+input{
+    border: none;
+  }
+
+input.contact-form-button{
+    font-family: 'space-mono', monospace;
+    font-size: 1.125rem;
+    color: #EDF0F7;
+    background-color:#12213A;
+  }
+
+input.contact-form-button:hover{
+     background-color:#2AD2B0; 
+  }
+      
+ .form input, .form textarea{
+    display:block;
+    width: 100%;
+ }
+
+/*Footer*/
+ html{
+    background: url("background3.png") no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center bottom;
 }
