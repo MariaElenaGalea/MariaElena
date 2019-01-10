@@ -159,6 +159,11 @@ input.contact-form-button:hover{
 .carousel-control-text{
     color: #12213A;
     font-family: 'geomanist-book', Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.carousel-control-text:hover{
+    color: #2AD2B0;
 }
 
 /*Footer*/

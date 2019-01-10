@@ -10,6 +10,10 @@
     font-family: "space-mono";
     src: url("https://fonts.googleapis.com/css?family=Space+Mono");}
 
+body{
+    background: #EDF0F7;
+}
+
 h1{
     font-family: 'geomanist-medium', sans-serif;  
     font-size: 1.875rem;
@@ -36,16 +40,11 @@ p {
     color: #12213A;}
 
 .about{
-    margin-top: 10em;
+    margin-top: 5em;
     margin-bottom: 10em;
     }
 
-    .background{
-        background: url("background1.png") no-repeat;
-        width: 100%;
-        background-size: contain;
-    }
-
+   
     input.custom{
         font-family: 'space-mono', monospace;
         color: #12213A;
@@ -81,7 +80,7 @@ input.contact-form-button{
 
   input.contact-form-button:hover{
     
-    background-color:#2AD2B0;
+    background-color:#2AD2B0;}
     
 
 
