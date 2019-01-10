@@ -149,6 +149,18 @@ input.contact-form-button:hover{
     width: 100%;
  }
 
+
+.carousel-control-prev, .carousel-control-next{
+    opacity: 1 !important;
+    bottom: -2.25em;
+    top: unset;
+    z-index: 1;
+}
+.carousel-control-text{
+    color: #12213A;
+    font-family: 'geomanist-book', Helvetica, sans-serif;
+}
+
 /*Footer*/
  html{
     background: url("background3.png") no-repeat;
@@ -156,3 +168,4 @@ input.contact-form-button:hover{
     background-attachment: fixed;
     background-position: center bottom;
 }
+

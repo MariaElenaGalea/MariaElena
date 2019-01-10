@@ -15,12 +15,12 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
-</head>
 
-<style type="text/css" media="screen, print">
-    @import url('grid_12-825-55-15.css');
-    @import url(<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">);
-</style>
+    <style media="screen, print">
+        @import url('grid_12-825-55-15.css');
+        @import url("https://fonts.googleapis.com/css?family=Space+Mono");
+    </style>
+</head>
 
 <body>
     <!--Navigation Bar-->
@@ -65,7 +65,7 @@
         <!--Gallery-->
         <div class="space container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="project-container">
                         <img src="photolog1.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="project-container">
                         <img src="photolog2.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog3.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog4.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog5.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog6.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog7.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog8.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog9.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog10.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="project-container">
                         <img src="photolog11.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="space2 col-4">
+                <div class="space2 col-md-4">
                     <div class="project-container">
                         <img src="photolog12.png" alt="Maria Elena" class="img-fluid image">
                         <div class="project-overlay">
@@ -171,12 +171,12 @@
             <form action="mailto:galeamariaelena@gmail.com" method="get">
                 <div class="">
                     <label for="name"></label>
-                    <input id="name" type="name" name="name" placeholder="name" class="custom" required>
+                    <input id="name" type="text" name="name" placeholder="name" class="custom" required>
                 </div>
 
                 <div class="">
                     <label for="surname"></label>
-                    <input id="surname" type="name" name="surname" placeholder="surname" class="custom" required>
+                    <input id="surname" type="text" name="surname" placeholder="surname" class="custom" required>
                 </div>
 
                 <div class="">
@@ -187,8 +187,7 @@
 
                 <div class="">
                     <label for="message"></label>
-                    <textarea id="message" type="text" name="message" placeholder="message" maxlength="500" class="custom"
-                        required>
+                    <textarea id="message" name="message" placeholder="message" maxlength="500" class="custom" required>
                                 </textarea>
                 </div>
 

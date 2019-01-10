@@ -16,12 +16,14 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
+
+    <style media="screen, print">
+        @import url('grid_12-825-55-15.css');
+        @import url("https://fonts.googleapis.com/css?family=Space+Mono");
+    </style>
 </head>
 
-<style type="text/css" media="screen, print">
-    @import url('grid_12-825-55-15.css');
-    @import url(<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">);
-</style>
+
 
 <body>
     <!--Navigation Bar-->
@@ -72,7 +74,7 @@
         <!--Portfolio preview-->
         <div class="background2">
 
-            <div class="container">
+            <div class="container" id="work">
                 <div class="row">
                     <div class="col-2 align-self-start"></div>
                     <div class="col-md-11 offset-md-2">
@@ -93,7 +95,7 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="swatchbook.html">
                                     <img src="1.png" alt="Maria Elena" class="img-fluid image">
@@ -103,7 +105,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="fjb_legal.html">
                                     <img src="2.png" alt="Maria Elena" class="img-fluid image">
@@ -113,7 +115,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="calypsohotel.html">
                                     <img src="3.png" alt="Maria Elena" class="img-fluid image">
@@ -123,7 +125,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="breakfast_packaging.html">
                                     <img src="4.png" alt="Maria Elena" class="img-fluid image">
@@ -133,7 +135,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="beerlabel.html">
                                     <img src="5.png" alt="Maria Elena" class="img-fluid image">
@@ -143,7 +145,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="folderpackaging.html">
                                     <img src="6.png" alt="Maria Elena" class="img-fluid image">
@@ -153,7 +155,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="photojournalism.html">
                                     <img src="7.png" alt="Maria Elena" class="img-fluid image">
@@ -163,7 +165,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="work col-4">
+                        <div class="work col-md-4 col-sm-6">
                             <div class="project-container">
                                 <a class="project-link" href="freedom2learn.html">
                                     <img src="8.png" alt="Maria Elena" class="img-fluid image">
@@ -214,12 +216,12 @@
                 <form action="mailto:galeamariaelena@gmail.com" method="get">
                     <div class="">
                         <label for="name"></label>
-                        <input id="name" type="name" name="name" placeholder="name" class="custom" required>
+                        <input id="name" type="text" name="name" placeholder="name" class="custom" required>
                     </div>
 
                     <div class="">
                         <label for="surname"></label>
-                        <input id="surname" type="name" name="surname" placeholder="surname" class="custom" required>
+                        <input id="surname" type="text" name="surname" placeholder="surname" class="custom" required>
                     </div>
 
                     <div class="">
@@ -230,7 +232,7 @@
 
                     <div class="">
                         <label for="message"></label>
-                        <textarea id="message" type="text" name="message" placeholder="message" maxlength="500" class="custom"
+                        <textarea id="message" name="message" placeholder="message" maxlength="500" class="custom"
                             required>
                                 </textarea>
                     </div>
