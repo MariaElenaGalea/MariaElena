@@ -119,7 +119,7 @@ html{
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition:  ease;
     background-color: #2AD2B0AA;
 }
 
@@ -133,7 +133,7 @@ html{
     opacity: 1;
 }
 .project-container .text {
-    color: white;
+    color:#12213A;
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     position: absolute;
@@ -154,6 +154,8 @@ html{
       transition: all 300ms ease 0s;
   }
 
+
+/*Form*/  
 input.custom{
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
