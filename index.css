@@ -75,7 +75,7 @@ a:hover{
 }
 
 .space{
-    margin-bottom: 20em;
+    margin-bottom: 10em;
 }
 
 /* background */
@@ -191,4 +191,13 @@ input.contact-form-button:hover{
  .form input, .form textarea{
     display:block;
     width: 100%;
+ }
+
+ .disclaimer{
+    font-family: 'space-mono', monospace;
+    font-size: 12px;
+    text-align-last: center;
+    padding-right: 20em;
+    padding-left: 20em;
+    
  }

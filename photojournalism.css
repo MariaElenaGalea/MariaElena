@@ -174,3 +174,11 @@ input.contact-form-button:hover{
     background-position: center bottom;
 }
 
+.disclaimer{
+    font-family: 'space-mono', monospace;
+    font-size: 12px;
+    text-align-last: center;
+    padding-right: 20em;
+    padding-left: 20em;
+    
+ }
