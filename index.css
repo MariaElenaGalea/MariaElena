@@ -196,8 +196,8 @@ input.contact-form-button:hover{
  .disclaimer{
     font-family: 'space-mono', monospace;
     font-size: 12px;
-    text-align-last: center;
-    padding-right: 10em;
-    padding-left: 10em;
+    text-align: left;
+    padding-right: 1em;
+    padding-left: 1em;
     
  }
