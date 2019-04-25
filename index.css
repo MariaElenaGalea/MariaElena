@@ -86,12 +86,12 @@ a:hover{
     background-size: contain;
 }
 
-/*.background2{
+.background2{
     background: url("background2.png") no-repeat;
     width: 100%;
     background-size: contain;
     background-position-y: 10em;
-}*/
+}
 
 html{
     background: url("background3.png") no-repeat;
