@@ -212,14 +212,57 @@
         <!--Footer / icons-->
 
 
-        <div class="d-flex mb-3">
+        <!--Footer / icons-->
+        <div class="clearfix">
+            <div class="form col-md-3 float-right">
+                <form action="mailto:galeamariaelena@gmail.com" method="get">
+                    <div class="">
+                        <label for="name"></label>
+                        <input id="name" type="text" name="name" placeholder="name" class="custom" required>
+                    </div>
 
+                    <div class="">
+                        <label for="surname"></label>
+                        <input id="surname" type="text" name="surname" placeholder="surname" class="custom" required>
+                    </div>
+
+                    <div class="">
+                        <label for="email"></label>
+                        <input id="email" type="email" name="email" placeholder="email address" class="custom" required
+                            pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$">
+                    </div>
+
+                    <div class="">
+                        <label for="message"></label>
+                        <textarea id="message" name="message" placeholder="message" maxlength="500" class="custom"
+                            required>
+                                        </textarea>
+                    </div>
+
+                    <div class="ml-auto ">
+                        <input type="submit" value="get in touch" class="contact-form-button">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex mb-3">
+            <div class="p-4"><a href="https://www.instagram.com/mariaelena_galea98/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+
+            <div class="p-4"><a href="https://www.facebook.com/mariaelena.galea" target="_blank">
+                    <div class="fab fa-facebook-f"></div>
+                </a></div>
         </div>
     </div>
-
     <footer class="main-footer">
-
-        <!--    <div class="row align-items-start">
+        <div class="disclaimer">
+            The content on this website is the original work of Maria Elena Galea.
+            You may not, in any way, reproduce or communicate any of the content, in whole or in part, on this
+            website, without prior
+            written consent from the owner.
+        </div>
+    </footer>
+    <!--    <div class="row align-items-start">
             <div class="col-8">
                 <div class="disclaimer">
                     All content is the original work of Maria Elena Galea.<br>
@@ -235,13 +278,9 @@
             </div> -->
 
 
-        <div class="social-icons-wrapper w-hidden-small w-hidden-tiny"><a href="https://www.instagram.com/mariaelena_galea98/"
-                target="_blank"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/mariaelena.galea"
-                target="_blank">
-                <div class="fab fa-facebook-f"></div>
-            </a></div>
 
-    </footer>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
