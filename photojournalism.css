@@ -8,25 +8,26 @@
     src: url("geomanist-book-webfont.ttf");
 }
 
-body{
+body {
     background: none;
 }
+
 h1 {
     font-family: 'geomanist-medium', sans-serif;
     font-size: 1.875rem;
     color: #12213A;
     letter-spacing: 0.2em;
-    padding: 5px;  
-    }
+    padding: 5px;
+}
 
-h1:hover{
+h1:hover {
     color: #2AD2B0;
-   } 
+}
 
-h2:hover{
+h2:hover {
     color: #2AD2B0;
-   } 
-  
+}
+
 h2 {
     font-family: 'geomanist-book', sans-serif;
     font-size: 1.5rem;
@@ -45,34 +46,35 @@ p {
     font-size: 18px;
     color: #12213A;
 }
+
 div {
     font-family: 'geomanist-book', Helvetica, sans-serif;
     font-size: 24px;
     color: #12213A;
 }
 
-i{
-    font-size: 	3rem;
+i {
+    font-size: 3rem;
     color: #12213A;
 }
 
-a{
+a {
     font-family: 'space-mono', monospace;
     font-size: 18px;
     color: #12213A;
 }
 
-.header{
+.header {
     background: url("background4.png") no-repeat;
     width: 100%;
     background-size: contain;
 }
 
-.about{
+.about {
     margin-top: 5em;
 }
 
-.about2{
+.about2 {
     margin-bottom: 25rem;
 }
 
@@ -83,102 +85,110 @@ a{
     background-position-y: 43em;
 }*/
 
-.work{
+.work {
     margin-bottom: 10em;
 }
 
-.space{
+.space {
     margin-bottom: 25em;
 }
 
-.space2{
+.space2 {
     margin-top: 10em;
 }
 
-.fab{
+.fab {
     font-size: 2em;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     background-color: #2AD2B0;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     fill: #2AD2B0;
 }
 
-.photolog:hover{
+.photolog:hover {
     color: #2AD2B0;
 }
 
-/*Form*/  
-input.custom{
+/*Form*/
+input.custom {
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     color: #12213A;
-  }
+}
 
-textarea{
+textarea {
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     color: #12213A;
     border: none;
-  }
+}
 
-::placeholder{
+::placeholder {
     color: #2AD2B0;
-  }
+}
 
-input{
+input {
     border: none;
-  }
+}
 
-input.contact-form-button{
+input.contact-form-button {
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     color: #EDF0F7;
-    background-color:#12213A;
-  }
+    background-color: #12213A;
+}
 
-input.contact-form-button:hover{
-     background-color:#2AD2B0; 
-  }
-      
- .form input, .form textarea{
-    display:block;
+input.contact-form-button:hover {
+    background-color: #2AD2B0;
+}
+
+.form input,
+.form textarea {
+    display: block;
     width: 100%;
- }
+}
 
 
-.carousel-control-prev, .carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
     opacity: 1 !important;
     bottom: -2.25em;
     top: unset;
     z-index: 1;
 }
-.carousel-control-text{
+
+.carousel-control-text {
     color: #12213A;
     font-family: 'geomanist-book', Helvetica, sans-serif;
     font-size: 24px;
 }
 
-.carousel-control-text:hover{
+.carousel-control-text:hover {
     color: #2AD2B0;
 }
 
 /*Footer*/
- html{
+html {
     background: url("background3.png") no-repeat;
     width: 100%;
     background-attachment: fixed;
     background-position: center bottom;
 }
 
-.disclaimer{
+.disclaimer {
     font-family: 'space-mono', monospace;
     font-size: 12px;
     text-align-last: center;
     padding-right: 20em;
     padding-left: 20em;
-    
- }
+
+}
+
+.none {
+    visibility: hidden;
+}

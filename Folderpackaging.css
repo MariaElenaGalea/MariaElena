@@ -7,8 +7,9 @@
     font-family: "geomanist-book";
     src: url("geomanist-book-webfont.ttf");
 }
-body{
-    background:none;
+
+body {
+    background: none;
 }
 
 h1 {
@@ -16,18 +17,18 @@ h1 {
     font-size: 1.875rem;
     color: #12213A;
     letter-spacing: 0.2em;
-    padding: 5px;  
-    }
+    padding: 5px;
+}
 
-h1:hover{
+h1:hover {
     color: #2AD2B0;
-   } 
+}
 
-h2:hover{
+h2:hover {
     color: #2AD2B0;
-   } 
+}
 
-  
+
 h2 {
     font-family: 'geomanist-book', sans-serif;
     font-size: 1.5rem;
@@ -46,119 +47,127 @@ p {
     font-size: 18px;
     color: #12213A;
 }
+
 div {
     font-family: 'geomanist-book', Helvetica, sans-serif;
     font-size: 24px;
     color: #12213A;
 }
 
-i{
-    font-size: 	3rem;
+i {
+    font-size: 3rem;
     color: #12213A;
 }
 
-a{
+a {
     font-family: 'space-mono', monospace;
     font-size: 18px;
     color: #12213A;
 }
-.about{
+
+.about {
     margin-top: 5em;
 }
 
-.about2{
-    margin-bottom:15em;
+.about2 {
+    margin-bottom: 15em;
 }
 
-.header{
+.header {
     background: url("background4.png") no-repeat;
     width: 100%;
     background-size: contain;
 }
 
 
-.work{
+.work {
     margin-top: 10em;
 }
 
-.work2{
+.work2 {
     margin-bottom: 10em;
 }
 
-.space{
+.space {
     margin-bottom: 25em;
 }
 
-.footer{
+.footer {
     background: url("background3.png") no-repeat;
     width: 100%;
     background-size: contain;
     background-position-y: 20em;
 }
-html{
+
+html {
     background: url("background3.png") no-repeat;
     background-position: center bottom;
 }
 
-.fab{
+.fab {
     font-size: 2em;
 }
 
-.photolog:hover{
+.photolog:hover {
     color: #2AD2B0;
 }
 
-/*Form*/  
-input.custom{
+/*Form*/
+input.custom {
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     color: #12213A;
-  }
+}
 
-textarea{
+textarea {
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     color: #12213A;
     border: none;
-  }
+}
 
-::placeholder{
+::placeholder {
     color: #2AD2B0;
-  }
+}
 
-input{
+input {
     border: none;
-  }
+}
 
-input.contact-form-button{
+input.contact-form-button {
     font-family: 'space-mono', monospace;
     font-size: 1.125rem;
     color: #EDF0F7;
-    background-color:#12213A;
-  }
+    background-color: #12213A;
+}
 
-input.contact-form-button:hover{
-     background-color:#2AD2B0; 
-  }
-      
- .form input, .form textarea{
-    display:block;
+input.contact-form-button:hover {
+    background-color: #2AD2B0;
+}
+
+.form input,
+.form textarea {
+    display: block;
     width: 100%;
- }
+}
 
 /*Footer*/
- html{
+html {
     background: url("background3.png") no-repeat;
     width: 100%;
     background-attachment: fixed;
     background-position: center bottom;
 }
 
-.disclaimer{
+.disclaimer {
     font-family: 'space-mono', monospace;
     font-size: 12px;
     text-align-last: center;
     padding-right: 20em;
     padding-left: 20em;
-    
- }
+
+}
+
+.none {
+    visibility: hidden;
+}
